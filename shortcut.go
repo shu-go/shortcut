@@ -1,8 +1,6 @@
 // Package shortcut manupulates Windows shortcut file.
 package shortcut
 
-import "errors"
-
 // Shortcut contains shortcut properties.
 type Shortcut struct {
 	// path to be invoked, except arguments.
@@ -30,19 +28,4 @@ type Shortcut struct {
 
 	// working directory
 	WorkingDirectory string
-}
-
-// Open reads a shortcut file.
-func Open(path string) (*Shortcut, error) {
-	return nil, errors.New("not supported")
-}
-
-// New returns a simle shortcut with default value.
-func New(targetPath string) *Shortcut {
-	return nil
-}
-
-// Save saves a shortcut file.
-func (s Shortcut) Save(path string) error {
-	return errors.New("not supported")
 }
