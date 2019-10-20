@@ -1,3 +1,4 @@
+// Package shortcut manupulates Windows shortcut file.
 package shortcut
 
 // https://stackoverflow.com/questions/32438204/create-a-windows-shortcut-lnk-in-go
