@@ -25,3 +25,24 @@ s.Arguments = "a b c"
 s.IconLocation = "path to exe, 0"
 s.Save()
 ```
+
+# memo (URL Shortcut)
+
+Not supported.
+
+## memo
+
+```
+[InternetShortcut]
+URL=https://www.google.com/
+HotKey=1601
+IconIndex=0
+IconFile=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+```
+
+### HotKey
+
+`ACS KEY_ CODE`
+`011 0100 0001` Ctrl+Shift+A
+`011 0100 0010` Ctrl+Shift+B
+`110 0100 0001` Ctrl+Alt+A
