@@ -42,7 +42,7 @@ IconFile=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
 ### HotKey
 
-`ACS KEY_ CODE`
-`011 0100 0001` Ctrl+Shift+A
-`011 0100 0010` Ctrl+Shift+B
-`110 0100 0001` Ctrl+Alt+A
+`ACS KEY_ CODE`<br />
+`011 0100 0001` Ctrl+Shift+A<br />
+`011 0100 0010` Ctrl+Shift+B<br />
+`110 0100 0001` Ctrl+Alt+A<br />
